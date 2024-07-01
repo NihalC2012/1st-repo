@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    background-color:#1CF1EC; 
+    font-size: 25pt;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.coinslabel {
+  padding: 10px;
+  margin: 1px;
+}
+
+.Click-Image {
+    width: 250px;
+    height: 250px;
+    transition: transform 0.5s;
+}
+
+.Click-Image:hover {
+    transform:scale(1.1);
+    transition:transform 0.5s;
+}
+
+.Click-Image:active{
+    transform:scale(0.9);
+    transform:transition(0.1s);
+    
+}
